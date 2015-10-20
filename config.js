@@ -2578,7 +2578,7 @@ var toReturn = {
 				food: 5
 			},
 			increase: "food",
-			modifier: 0.5
+			modifier: 40
 		},
 		Lumberjack: {
 			locked: 1,
@@ -2588,7 +2588,7 @@ var toReturn = {
 				food: 5
 			},
 			increase: "wood",
-			modifier: 0.5
+			modifier: 40
 		},
 		Miner: {
 			locked: 1,
@@ -2598,7 +2598,7 @@ var toReturn = {
 				food: 20
 			},
 			increase: "metal",
-			modifier: 0.5
+			modifier: 40
 		},
 		Scientist: {
 			locked: 1,
@@ -2608,7 +2608,7 @@ var toReturn = {
 				food: 100
 			},
 			increase: "science",
-			modifier: 0.5
+			modifier: 40
 		},
 		Trainer: {
 			locked: 1,
@@ -2618,7 +2618,7 @@ var toReturn = {
 				food: [750, 1.1]
 			},
 			increase: "custom",
-			modifier: 20
+			modifier: 1000
 		},
 		Explorer: {
 			locked: 1,
@@ -2628,13 +2628,13 @@ var toReturn = {
 				food: [15000, 1.1]
 			},
 			increase: "fragments",
-			modifier: 0.1
+			modifier: 80
 		},
 		Dragimp: {
 			locked: 1,
 			owned: 0,
 			increase: "gems",
-			modifier: 0.5
+			modifier: 40
 		},
 		Geneticist: {
 			locked: 1,
@@ -2644,7 +2644,7 @@ var toReturn = {
 				food: [1000000000000000, 1.03],
 			},
 			increase: "custom",
-			modifier: 1
+			modifier: 40
 		}
 	},
 	
